@@ -11,11 +11,16 @@
 .class-nav{
     
 }
+.ola-blanca{
+   
+   
+}
+
 .img-logo{
     width: 50px;
     filter: invert(1);
 }
-.header::after{
+/*.header::after{
     content:"";
     display:block;
     width:100%;
@@ -24,16 +29,28 @@
     position: absolute;
     left: 0;
     bottom: 0;
-}
+} */
 .vh-50{
     height: 50vmin;
 }
 body{
     font-family:'Open Sans', sans-serif;
-    font-size: 17px;
+    font-size: 16px;
 }
 h1, h2, h3 {
     font-family: 'Raleway', sans-serif;
+    font-size: 18;
+}
+hr{
+   border-width: 3px;
+   border-color:#85603f;
+   size: 100px;
+   width: 90%;
+   height:30px;
+}
+.row-1{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .section-carousel{
     padding: 0rem !important;
@@ -65,8 +82,14 @@ h1, h2, h3 {
     max-width: 100% !important;
 }
 .text-carousel{
-    
+    text-align: left;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: normal;
+}
+.cabaña, .habitaciones{
+    background-color:#ccf6c8;
 }
 .footer{
-    background-color: #cfc5a5;
+    background-color:  #184d47;
 }
