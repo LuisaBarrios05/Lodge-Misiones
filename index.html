@@ -6,7 +6,7 @@
     <title>Trip trip</title>
     <!-- CSS Bootstrap -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <!-- CDN Font awesome -->
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
@@ -300,31 +300,24 @@
             </div>
 </div>
             <!--Formulario reserva-->
-            <div>
-      <div class="">
-  
-          <div class="">
-            <label for="">Check-in</label>
-            <input type="text" class="" name="q-localised-check-in" id="qf-0q-localised-check-in" data-os-checkin value="10/03/2021"  placeholder="dd/mm/aaaa" aria-haspopup="true">
-            <input type="hidden" name="q-check-in" class="q-check-in" value="">
-            <span class="widget-query-day">miércoles</span>
-          </div>
-          <div class="">
-            <label for="qf-0q-localised-check-out">Check-out</label>
-            <input type="text" class="" name="q-localised-check-out" id="qf-0q-localised-check-out" data-os-checkout value="11/03/2021"  placeholder="dd/mm/aaaa" aria-haspopup="true">
-            <input type="hidden" name="q-check-out" class="q-check-out" value="">
-            <span class="widget-query-day">jueves</span>
-          </div>
-          <span class="widget-query-nights" id="qf-0q-nights">
-            <span>
-              <span class="widget-query-num-nights" data-os-nights>
-              </span> 
-            </span> <span class="">
-
-              </span>
-            </span>
-          </div>
-          <div class="">
+      <div class="container reserva-countainer">
+              <div class="content">
+                <h2>Hacer reserva</h2>
+                <hr />
+                <form class="form-horizontal" action="" method="post">
+                
+                <div class="form-row">    
+                    <div class="col-md-3 mb-1">
+                      <label for="validationServer03">Fecha de llegada</label>
+                      <input type="date" class="form-control" id="validationServer03" placeholder="Fecha desde" value="" required> 
+                    </div>
+                    <div class="col-md-3 mb-1">
+                      <label for="validationServer04">Fecha de salida</label>
+                      <input type="date" class="form-control" id="validationServer04" placeholder="Fecha hasta" value="" required>            
+                    </div>
+                  </div> 
+                 </div>
+                  <div class="">
             <div class="">
               <label for="">Habitaciones</label>
               <select name="" class="" id="" data-os-rooms>
@@ -340,12 +333,10 @@
               </select>
             </div>
             <div class="" data-os-room>
-              <span class="">Hab. 1:</span>
-              <div class=""><div class="">
                 <label for="">Adultos</label>
                 <select name="" id="" data-os-adults>
-                  <option value="1">1</option>
-                  <option value="2" selected="selected">2</option>
+                  <option value="1" selected="selected">1</option>
+                  <option value="2">2</option>
                   <option value="3">3</option>
                   <option value="4">4</option>
                   <option value="5">5</option>
@@ -365,19 +356,16 @@
                   <option value="3">3</option>
                   <option value="4">4</option>
                   <option value="5">5</option>
-                  <option value="6">6</option>
                 </select>
                 <span>0-17 años</span>
-              </div>
-            </div>
           </div>
           
+        </div> 
+        <div>
+        <button type="button" id="btnAgregarProducto" class="btn btn-secondary">Cancelar</button>
+        <button type="button" id="" class="btn btn-success">Terminar Reserva</button>
         </div>
-        <div class="">
-          <button type="submit" class="">Buscar</button>
-        </div>
-    </div>
-
+      </div>
 
     <!--footer-->
     <footer class="footer text-white">
@@ -405,5 +393,8 @@
     <script src="./js/popper.min.js"></script>
     <!-- JS Bootstrap -->
     <script src="./js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   </body>
 </html>
