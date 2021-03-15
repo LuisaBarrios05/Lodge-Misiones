@@ -41,7 +41,7 @@
           <div class="col-auto">
             <a href="#" class="text-reset pr-3">Inicio</a>
             <a href="#galeria1" class="text-reset pr-3">Galería</a>
-            <a href="form.html" class="text-reset pr-3">Reserva</a>
+            <a href="form.php" class="text-reset pr-3">Reserva</a>
             <a href="#footer-contacto" class="text-reset pr-3">Contacto</a>
             <a href="#" class="text-reset">Pagos</a>
           </div>
@@ -61,7 +61,7 @@
               queremos que viva en Misiones Lodge.
             </p>
             <!--boton-->
-            <a href="form.html" class="text-reset btn btn-success">Hacer reserva</a>
+            <a href="form.php" class="text-reset btn btn-success">Hacer reserva</a>
           </div>
         </div>
       </div>

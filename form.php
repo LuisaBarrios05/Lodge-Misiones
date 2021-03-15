@@ -75,6 +75,20 @@
             </select>
             <span>0-17 años</span>
             </li>
+
+            <li class="list-group-item">
+                    <label for="validationServer02">Nombre commpleto y Apellido</label> 
+                     <input type="text" name="nombreyap" class="form-control" id="nombreyap" placeholder="Ej. Maria Lorena Valdez" required pattern="^[A-Za-z ]*$" title="No permite números ni caracteres especiales.">
+            </li>
+
+            <li class="list-group-item">
+                    <label for="validationServer03">DNI</label>
+                    <input type="text" name="dni" class="form-control" id="dni" placeholder="DNI" required pattern="^[0-9]+" title="No se permiten letras ni caracteres especiales.">
+            </li>
+            <li class="list-group-item">
+                    <label for="validationServer05">Teléfono</label>
+                    <input type="text" name="telefono" class="form-control" id="telefono" placeholder="Ej. 3764204380" required pattern="^[0-9]+" title="No se permiten letras ni caracteres especiales.">
+            </li>
     
     </ul>
     <li class="list-group-item d-flex justify-content-end">
