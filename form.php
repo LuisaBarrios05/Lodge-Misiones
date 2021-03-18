@@ -184,6 +184,15 @@
           <p>Correo: contacto@gmail.com</p>
           <p>Celular: 3764-402380</p>
         </ul>
+        <ul class="col-3 list-unstyled">
+            <li class="font-weight-bold text-uppercase">Redes sociales</li>
+            <li class="d-flex justify-content-between">
+            <a href="https://www.instagram.com/luisabarrios01/" class="text-reset"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.facebook.com/luisa.barrios.3139/" class="text-reset"><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a href="#" class="text-reset"><i class="fab fa-twitter-square fa-2x"></i></a>
+            </li>
+           
+          </ul>
       </nav>
     </div>
   </footer>

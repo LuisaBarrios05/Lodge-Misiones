@@ -6,7 +6,7 @@
     <title>Lodge Misiones</title>
     <!-- CSS Bootstrap -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    
+    <!--font awesome-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
@@ -172,7 +172,7 @@
       <div class="col-5">
         <div
           class="carousel slide rounded section-carousel row justify-content-end"
-          id="carousel-weston2"
+          id="carousel-2"
         >
           <!--slides-->
           <div class="carousel-inner contenedor-carousel">
@@ -199,21 +199,21 @@
             </div>
           </div>
           <a
-            href="#carousel-weston2"
+            href="#carousel-2"
             class="carousel-control-prev"
             data-slide="prev"
           >
             <span class="carousel-control-prev-icon"></span>
           </a>
           <a
-            href="#carousel-weston2"
+            href="#carousel-2"
             class="carousel-control-next"
             data-slide="next"
           >
             <span class="carousel-control-next-icon"></span>
           </a>
           <a
-            href="#carousel-weston2"
+            href="#carousel-2"
             class="carousel-control-next"
             data-slide="next"
           >
@@ -254,6 +254,21 @@
             <li class="font-weight-bold text-uppercase">Contacto</li>
             <p>Correo: contacto@gmail.com</p>
             <p>Celular: 3764-402380</p>
+          </ul>
+          <ul class="col-3 list-unstyled">
+            <li class="font-weight-bold text-uppercase">Redes sociales</li>
+            <li class="d-flex justify-content-between">
+            <a href="https://www.instagram.com/luisabarrios01/" class="text-reset">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+            <a href="https://www.facebook.com/luisa.barrios.3139/" class="text-reset">
+            <i class="fab fa-facebook-square fa-2x"></i>
+          </a>
+            <a href="#" class="text-reset">
+              <i class="fab fa-twitter-square fa-2x"></i>
+            </a>
+            </li>
+           
           </ul>
         </nav>
       </div>
